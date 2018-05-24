@@ -2,7 +2,8 @@
 *.apk
 *.ap_
 
-# Files for the Dalvik VM
+
+# Files for the ART/Dalvik VM
 *.dex
 
 # Java class files
@@ -11,6 +12,7 @@
 # Generated files
 bin/
 gen/
+out/
 
 # Gradle files
 .gradle/
@@ -38,3 +40,6 @@ captures/
 gradle/
 gradlew
 gradlew.bat
+
+# External native build folder generated in Android Studio 2.2 and later
+.externalNativeBuild
